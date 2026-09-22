@@ -2,10 +2,12 @@ def print_menu():
     print("="*40)
     print("   QUẢN LÝ KHO HÀNG - GROCERY STORE")
     print("="*40)
-    print("""1. Xem danh sách tồn kho
-    2. Nhập thêm hàng hóa mới
-    3. Cập nhật số lượng tồn kho theo ID
-    4. Thoát chương trình""")
+    print("""
+1. Xem danh sách tồn kho
+2. Nhập thêm hàng hóa mới
+3. Cập nhật số lượng tồn kho theo ID
+4. Thoát chương trình
+    """)
     print("="*40)
     
 def check_list_hang(list_hang):
@@ -69,7 +71,9 @@ def update_quantity(list_hang):
     tim_hang['quantity'] = new_quan
     print("Cập nhật số lượng thành công!")
     
-list_hang = []
+list_hang = [{
+    "id": "G9", "name": "gạo", "quantity": 30 
+}]
 
 def main():
     print_menu()
