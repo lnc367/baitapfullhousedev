@@ -16,6 +16,9 @@ def check_list_hang(list_hang):
         return True
     
 def display_kho(list_hang):
+    if not list_hang:
+        print("Kho hàng hiện đang trống!")
+        return
     print("    ----- DANH SÁCH TỒN KHO -----")
     print(f"{'ID':<6} | {'Tên hàng hóa':<15} | {'Số lượng tồn'}")
     print("-"*40)
