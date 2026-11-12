@@ -1,0 +1,17 @@
+{
+  "menu": [
+    {
+      "id": 2,
+      "name": "Trà đào cam sả",
+      "price": 35000,
+      "category": "tra-trai-cay"
+    },
+    {
+      "id": 3,
+      "name": "Matcha latte",
+      "price": 40000,
+      "category": "tra-sua"
+    }
+  ],
+  "orders": []
+}
